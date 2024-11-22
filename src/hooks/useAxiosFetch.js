@@ -37,7 +37,7 @@ const useAxiosFetch = (dataUrl) => {
 
             function cleanUp()
             {
-            const isMounted=false;
+            isMounted=false;
             source.cancel()
             }
          return cleanUp()
